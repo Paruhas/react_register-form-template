@@ -1,4 +1,5 @@
 import { useRef, useState } from "react";
+import CarouselComponent from "../component/CarouselComponent";
 
 const database = [
   {
@@ -842,7 +843,7 @@ function RegisterPage() {
                 </div>
                 <div className="form-footer">
                   <button
-                    className="btn btn-1"
+                    className="btn btn-1 btn-width-50"
                     onClick={(e) => submitRegisterForm(e)}
                   >
                     ดำเนินการต่อ
@@ -983,7 +984,9 @@ function RegisterPage() {
               </form>
             )}
           </div>
-          <div className="center-colossal"></div>
+          <div className="center-colossal">
+            <CarouselComponent />
+          </div>
         </div>
       </div>
 
@@ -995,18 +998,12 @@ function RegisterPage() {
             box-sizing: border-box;
           }
 
-          .App {
-            height: 100vh;
-            width: 100vw;
-          }
-
           .header {
             display: flex;
             padding: 1.25rem;
             justify-content: space-between;
             align-items: center;
             box-shadow: 0px -20px 20px 8px black;
-            height: 10%;
           }
           
           .header-right {
@@ -1024,7 +1021,6 @@ function RegisterPage() {
           .center {
             display: flex;
             width: 100%;
-            height: 90%;
           }
           .center-form {
             width: 40%;
@@ -1059,6 +1055,10 @@ function RegisterPage() {
             color: #ffffff;
             background: #a026a8;
             border: none;
+          }
+          .btn-width-50 {
+            width: 50%;
+            min-width: max-content;
           }
 
           /* ===== TEXT CSS ===== */
