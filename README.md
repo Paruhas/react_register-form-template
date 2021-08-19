@@ -1,3 +1,19 @@
+# React Project Example Register Form
+
+This project is my skill test to create sample register form with and validate error.
+
+User have to type his name, email, tel., password, upload image and agree ToS to register.
+
+#### `Tool`
+
+- react (create-react-app)
+- react-router-dom
+- antd (Carousel)
+
+* npm i first before run app
+
+==========
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
