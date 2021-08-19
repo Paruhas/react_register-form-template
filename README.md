@@ -10,7 +10,11 @@ User have to type his name, email, tel., password, upload image and agree ToS to
 - react-router-dom
 - antd (Carousel)
 
-**npm i first before run app**
+```
+npm i // install node package before running app
+npm run start // run app
+```
+
 <!-- blank line -->
 ----
 <!-- blank line -->
